@@ -2,26 +2,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#93E2ED"
     android:orientation="vertical"
-    android:padding="24dp"
-    android:background="#FFFFFF">
+    android:padding="24dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
         android:text="Travel Companion App"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="24dp" />
+        android:textStyle="bold" />
 
     <!-- Spinner -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
         android:text="Category:"
-        android:textSize="16sp"
-        android:layout_marginBottom="4dp" />
+        android:textSize="16sp" />
 
     <Spinner
         android:id="@+id/spinnerCategory"
@@ -33,9 +33,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
         android:text="From:"
-        android:textSize="16sp"
-        android:layout_marginBottom="4dp" />
+        android:textSize="16sp" />
 
     <Spinner
         android:id="@+id/spinnerFrom"
@@ -47,9 +47,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
         android:text="To:"
-        android:textSize="16sp"
-        android:layout_marginBottom="4dp" />
+        android:textSize="16sp" />
 
     <Spinner
         android:id="@+id/spinnerTo"
@@ -61,34 +61,35 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
         android:text="Enter Value:"
-        android:textSize="16sp"
-        android:layout_marginBottom="4dp" />
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/etInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
         android:hint="Enter value here"
-        android:inputType="numberDecimal|numberSigned"
-        android:layout_marginBottom="24dp" />
+        android:inputType="numberDecimal|numberSigned" />
 
     <!-- Convert Button -->
     <Button
         android:id="@+id/btnConvert"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Convert"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#EB6E6E"
+        android:text="Convert" />
 
     <!-- Result -->
     <TextView
         android:id="@+id/tvResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:text=""
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal" />
+        android:textStyle="bold" />
 
 </LinearLayout>
