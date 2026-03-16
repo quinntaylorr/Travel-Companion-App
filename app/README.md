@@ -2,7 +2,7 @@
 This task features a Travel Companion App that can be used to help
 with international travel, by converting key units
 such as Currency, Fuel Efficiency and distance, and Temperature
-### Authour
+### Author
 Quinn Taylor
 
 Student ID: 221278516 
